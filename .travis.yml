@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: JDiIUSZ0O1XRb6/Jm6Cc/XpxfCmuOkVTjNnJkgZvTTGdrmWpFuY0CP6zbYtuBHmIdJ1bzcnUus9j0+C/avRp/IKvpD8pI9A00ihE7va1WQFltB45sbwsotHaFx7dmpbfXpOzyt+ED1I5kC/O/NFrS0LMhWP00Bilo6oALv9USZTxfVnArSYgS67OTkVtGEWGu0eNExsvxWWDytjQLTqM7A8aX1JCzbL3P40C3hjQxU5LrmkK/5z6NBlu4Ks+6/F+BpRt1PV7bGBnZKYhQ93l6SlA1z2hVUjEpP8lZuiJuXsFrB3zp3YlCVbgP+ilaZ4r178lPTruy3Bk9DYEFmIO2Pn6ztEeEfXBcIK+U1ufjYrqxBT2aA2J08C6rNOt45f4gjPHZArY6QPM/79Y8WIQz8c+fKjnHz8wLKa4kv5cSGSUMxKdrT12Fer8enhZ0qrc5aa/FzgXX2vsh64SL9/uHXWFXRqyLQus0HCiVD+JCV4faQSR2ktkEt5dNzch09jEvXzhYOeDFBajgJwxZuxq5bJPlrrkDDtgI6/rdR9OZStj7XwGyAY3WD2UBfOPndKlIGitzuhGP/LV7fZ+qrTkz+HRS7K6KhA6kBQhlDubsbKMt9cykd/EzD0rTIIA0zCtLtp3z5jZ0P5XYIQdncr2fuQBlwGKXOrEm5n4ynUFjE0=
+  app: whispering-cliffs-73357
+  on:
+    repo: sgarcia30/node-shopping-list-integration-tests
